@@ -34,6 +34,7 @@ header{
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #fff8f3;
 }
 
 .nav-title{
@@ -51,7 +52,7 @@ header{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: "Open Sans", serif;;
+    font-family: "Open Sans", serif;
     font-size: 20px;
     font-weight: bold;
     padding: 15px 30px;
@@ -77,6 +78,7 @@ header{
 .banner-content h4{
     font-size: 35px;
     color: #474747;
+    font-weight: 600px;
 }
 
 .banner-content h1{
@@ -93,3 +95,142 @@ header{
 .header-btn{
     margin-right: 20px;
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    font-family: "Open Sans", serif;
+}
+
+.about-container{
+    background-color:#fff8f3;
+    padding: 130px 150px;
+    margin: 130px 0;
+    text-align: center;
+}
+
+.about-content h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.about-items{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+.what-do{
+    justify-content: center;
+    text-align: center;
+    margin-top: 130px;
+}
+.what-do h3{
+    font-size: 35px;
+}
+.what-do p{
+    margin: 20px 0;
+}
+
+
+.skill-container{
+    display: flex;
+    margin-top: 70px;
+    gap: 40px;
+    margin-bottom: 130px;
+
+}
+
+.skill-container h4{
+    margin: 20px 0;
+}
+
+
+.skills{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 50px 30px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+.resume-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-container h4{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.resume-container h5{
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+}
+.resume-container h6{
+    font-size: 16px;
+    
+}
+.resume-container p{
+    margin: 10px 0 20px 0;
+}
+
+.resume-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    margin: 40px 0;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #fff8f3;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    
+}
+
+footer h3{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 20px;
+    margin: 25px 0;
+}
+footer img{
+    height: 40px;
+}
+
+footer input, textarea{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+footer textarea{
+    height: 100px;
+}
+
