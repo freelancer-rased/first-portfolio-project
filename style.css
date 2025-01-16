@@ -156,12 +156,6 @@ main{
 }
 
 
-
-
-
-
-
-
 .resume-title{
     font-size: 35px;
     text-align: center;
@@ -234,3 +228,60 @@ footer textarea{
     height: 100px;
 }
 
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        background-image: none;
+    }
+    .banner-container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    .btn-primary{
+        font-size: 10px;
+    }
+
+    .banner-image{
+        width: 200px;
+    }
+
+    .about-container, .what-do{
+        padding: 15px;
+        margin: 20px 0;
+    }
+
+    .about-items{
+        flex-wrap: wrap;
+    }
+
+    .skill-container{
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .resume-container{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    footer{
+        margin-top: 20px;
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    footer h3{
+        margin-top: 30px;
+    }
+}
